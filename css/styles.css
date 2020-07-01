@@ -192,7 +192,7 @@ justify-content: center;}
 .works { display: flex; justify-content: center;
 padding-left: 0;
 margin-top: 0;
-margin-bottom: 0;}
+margin-bottom: 94px;}
 
 
 .works .works-list + .works-list {margin-left: 30px;}
@@ -203,7 +203,10 @@ margin-bottom: 0;}
     background-color: var(--text-fon);
    padding-top: 27px;
 padding-bottom: 27px;
-margin-bottom: 94px;
+text-transform: uppercase;
+font-weight: 700;
+line-height: 1.14;
+font-size: 14px;
 }
 
 /* komanda 4 elementa*/
@@ -211,22 +214,22 @@ margin-bottom: 94px;
 .komanda {background-color: var(--section-komanda-color);
  text-align: center; }
 
-.sotrudnik {display: flex;
+.partner {display: flex;
     justify-content: center;
   padding-bottom: 94px;
 margin-top: 0;
 margin-bottom: 0;
 padding-left: 0;} 
 
-.fon-sotrudnik {background-color: var(--primery-fon);
+.fon-partner {background-color: var(--primery-fon);
     box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
     border-radius: 0px 0px 4px 4px;} 
 
-.sotrudnik .sotrudnik-list + .sotrudnik-list {
+.partner .partner-list + .partner-list {
     margin-left: 30px;
 }
 
-.title-sotrudnik { display: inline-block;
+.title-partner { display: inline-block;
     margin-top: 30px;
     margin-bottom: 0;
     
@@ -243,7 +246,7 @@ line-height: 1.9;}
      padding-left: 0;
      padding-bottom: 24px;
     justify-content: center;}
-.seti .sotrudnik-seti + .sotrudnik-seti {margin-left: 10px;}
+.seti .partner-seti + .partner-seti {margin-left: 10px;}
 
 .fon-s {display: flex;
     height: 44px;
@@ -256,10 +259,11 @@ line-height: 1.9;}
    justify-content: center;
 align-items: center;}
 
+.fon-s:hover {background: var(--activ-button-color);
+fill: #FFFFFF;}
 
+.fon-s {fill: #AFB1B8;}
 
-.icon-sotrudnik {--color4: #AFB1B8;}
-.icon-sotrudnik:hover {--color4: #FFFFFF;}
 
 /* postoyannue klientu */
 
@@ -327,9 +331,9 @@ padding-left: 0;}
      border-radius: 50%;
      justify-content: center;
      align-items: center;
-  }
+     }
   
-.link-seti:hover, .fon-s:hover {
+.link-seti:hover {
     background-color: var(--activ-button-color);}
 
 
@@ -347,7 +351,7 @@ padding-left: 0;}
 
 .soc-seti > a {color: var(--color-adress-footer);}
 
-
+.footer-seti {fill: #FFFFFF}
  
 .copirayt {color: var(--stile-text-color);}
 
